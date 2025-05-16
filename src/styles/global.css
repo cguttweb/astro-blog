@@ -20,6 +20,21 @@ h1 {
   font-size: 2.5rem;
 }
 
+/* hamburger styles */
+
+.hamburger {
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.hamburger .line {
+  background-color: #ff9776;
+  display: block;
+  height: 5px;
+  margin-bottom: 10px;
+  width: 40px;
+}
+
 /* nav styles */
 
 .nav-links {
@@ -63,6 +78,10 @@ h1 {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
   }
 
 }
